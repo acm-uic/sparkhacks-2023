@@ -73,3 +73,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 Christian Bingman - [@ChristianBingman](https://github.com/ChristianBingman)
 Julius Linus = [@rapterjet2004](https://github.com/rapterjet2004)
+resolves #27
