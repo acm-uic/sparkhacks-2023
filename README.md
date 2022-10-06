@@ -76,3 +76,5 @@ Christian Bingman - [@ChristianBingman](https://github.com/ChristianBingman)
 Julius Linus - [@rapterjet2004](https://github.com/rapterjet2004)
 
 Eduardo Morales - [@emoral435](https://github.com/emoral435)
+
+Connor Hunter - [@Mohpann](https://github.com/Mohpann)
