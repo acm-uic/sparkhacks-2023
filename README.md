@@ -80,3 +80,5 @@ Eduardo Morales - [@emoral435](https://github.com/emoral435)
 Connor Hunter - [@Mohpann](https://github.com/Mohpann)
 
 Preet Talati -[Ptalat2](https://github.com/Ptalat2)
+
+Tony Chan - [@tchan2003](https://github.com/tchan2003)
