@@ -87,6 +87,8 @@ Marko Bogosavljevic - [@ThatMarko](https://github.com/ThatMarko)
 
 David Mei - [@ChangerEX](https://github.com/ChangerEX)
 
+Jeongjae Park - [@Jeongjae-0124](https://github.com/Jeongjae-0124)
+
 Yurii Koval - [ykoval201](https://github.com/ykoval201)
 
 Jimmy Cgen - [jjmmyc](https://github.com/jjmmyc)
