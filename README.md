@@ -86,3 +86,5 @@ Tony Chan - [@tchan2003](https://github.com/tchan2003)
 Marko Bogosavljevic - [@ThatMarko](https://github.com/ThatMarko)
 
 David Mei - [@ChangerEX](https://github.com/ChangerEX)
+
+Jimmy Cgen - [jjmmyc](https://github.com/jjmmyc)
