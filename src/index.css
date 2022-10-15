@@ -2,3 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  :root {
+    /* for rgb(131 38  144 / <alpha-value>) */
+    --color-primary: 131 38 144;
+
+    --color-primary-light: 208 123 219;
+    --color-primary-dark: 84 24 92;
+
+    --color-secondary-light: 219 211 79;
+    --color-secondary-dark: 143 137 44;
+  }
+}
+
+body {
+  font-size: 14pt;
+}
+
+h1 {
+  font-size: 38pt;
+}
+
+h2 {
+  font-size: 28pt;
+}
+
+h3 {
+  font-size: 24pt;
+}
+
+h1 h2 h3 {
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 22pt;
+  font-weight: normal;
+}
