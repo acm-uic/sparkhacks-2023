@@ -4,9 +4,9 @@
 
 @layer base {
   :root {
-    /* for rgb(131 38  144 / <alpha-value>) */
+    /* Defines the primary and secondary colors as CSS variables for use in rgb color space function.
+    Example for primary color rgb(131 38  144 / <alpha-value>) where alpha-value will be provided by tailwindcss opacity modifiers (if used) */
     --color-primary: 131 38 144;
-
     --color-primary-light: 208 123 219;
     --color-primary-dark: 84 24 92;
 
