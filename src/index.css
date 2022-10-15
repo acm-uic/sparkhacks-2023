@@ -37,5 +37,10 @@ h1 h2 h3 {
 
 h4 {
   font-size: 22pt;
+  font-weight: semibold;
+}
+
+h5 {
+  font-size: 20pt;
   font-weight: normal;
 }
