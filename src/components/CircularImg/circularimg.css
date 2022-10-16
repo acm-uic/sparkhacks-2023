@@ -1,0 +1,6 @@
+.circular-img {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%; /* round img */
+    object-fit: cover; /* cut img instead of stretching */
+}

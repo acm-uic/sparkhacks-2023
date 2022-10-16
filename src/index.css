@@ -2,3 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  :root {
+    /* Defines the primary and secondary colors as CSS variables for use in rgb color space function.
+    Example for primary color rgb(131 38  144 / <alpha-value>) where alpha-value will be provided by tailwindcss opacity modifiers (if used) */
+    --color-primary: 131 38 144;
+    --color-primary-light: 208 123 219;
+    --color-primary-dark: 84 24 92;
+
+    --color-secondary-light: 219 211 79;
+    --color-secondary-dark: 143 137 44;
+  }
+}
+
+body {
+  font-size: 14pt;
+}
+
+h1 {
+  font-size: 38pt;
+}
+
+h2 {
+  font-size: 28pt;
+}
+
+h3 {
+  font-size: 24pt;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 22pt;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 20pt;
+  font-weight: normal;
+}
