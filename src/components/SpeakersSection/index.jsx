@@ -1,20 +1,24 @@
 import CircularImg from "../CircularImg";
 
-const PLACEHOLDER_1 = require("../../assets/images/Placeholder_1.bmp");
-const PLACEHOLDER_2 = require("../../assets/images/Placeholder_2.bmp");
-const PLACEHOLDER_3 = require("../../assets/images/Placeholder_3.bmp");
-const PLACEHOLDER_4 = require("../../assets/images/Placeholder_4.bmp");
-const PLACEHOLDER_5 = require("../../assets/images/Placeholder_5.bmp");
+const IMAGE_LINKS = [
+            "https://user-images.githubusercontent.com/42191425/195488298-b472212b-992a-40f1-aa36-91e3c51da4f2.png",
+            "https://user-images.githubusercontent.com/42191425/195488322-23d86cc8-fedf-4c57-94df-51ddde8e6db1.png",
+            "https://user-images.githubusercontent.com/42191425/195488337-fd6ae64f-aa44-4d1a-83db-0883f0cd5228.png",
+            "https://user-images.githubusercontent.com/42191425/195488359-bfec2221-5372-4891-879a-eba7d6591692.png",
+            "https://user-images.githubusercontent.com/42191425/195488370-c4a57052-1743-4a9b-b819-7a489ca9e601.png"
+];
 
 export default function SpeakersSection(){
     return (<div class='grid place-items-center'>
                 <h1 class='my-4'>Speakers</h1>
                 <div class='grid grid-cols-1 gap-3 md:grid-cols-3 lg:grid-cols-5 m-2'>
-                    <CircularImg href={PLACEHOLDER_1}/>
-                    <CircularImg href={PLACEHOLDER_2}/>
-                    <CircularImg href={PLACEHOLDER_3}/>
-                    <CircularImg href={PLACEHOLDER_4}/>
-                    <CircularImg href={PLACEHOLDER_5}/>
+                {
+                    IMAGE_LINKS.map(
+                            (image)=>{
+                                return <CircularImg href={image}/>
+                            }
+                    )
+                }
                 </div>
             </div>);
 }
