@@ -87,4 +87,14 @@ Marko Bogosavljevic - [@ThatMarko](https://github.com/ThatMarko)
 
 David Mei - [@ChangerEX](https://github.com/ChangerEX)
 
-Jeongjae Park -[@Jeongjae-0124] ((https://github.com/Jeongjae-0124)
+Jeongjae Park - [@Jeongjae-0124](https://github.com/Jeongjae-0124)
+
+Yurii Koval - [ykoval201](https://github.com/ykoval201)
+
+Jimmy Cgen - [jjmmyc](https://github.com/jjmmyc)
+
+Ron Pham - [@Bacoburn](https://github.com/Bacoburn)
+
+Adrian Knight - [@Ajknight121](https://github.com/Ajknight121)
+
+Ares Stavropoulos - [@Ares1605](https://github.com/Ares1605)
