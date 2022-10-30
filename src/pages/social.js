@@ -1,5 +1,13 @@
 import './social.css'
+import ArchiveCarousel from '../components/ArchiveCarousel';
+
 
 export default function Social(){
-    return (<h1>Social</h1>)
+    return (
+        <div>
+            <h1>Social</h1>
+            <ArchiveCarousel/>
+        </div>
+    
+    );
 }

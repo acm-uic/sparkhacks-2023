@@ -2,6 +2,8 @@ import './about.css'
 import SpeakersSection from '../components/SpeakersSection';
 import ExecutiveLeaders from '../components/ExecutiveLeaders';
 import Description from '../components/Description';
+import ArchiveCarousel from '../components/ArchiveCarousel';
+
 export default function About(){
 
     return (<div className={"place-items-center m-auto"}>
@@ -16,6 +18,7 @@ export default function About(){
                 <Description/>
                 <ExecutiveLeaders/>
                 <SpeakersSection/>
+                <ArchiveCarousel/>
             </div>
     );
 }
