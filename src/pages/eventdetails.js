@@ -12,7 +12,7 @@ export default function EventDetails() {
       <div className={"ml-[10rem] min-w-fit"}>
         <EventCard event={DummyEvents["Monday"][0]} />
         <hr className="my-3" />
-        <EventCard event={DummyEvents["Monday"][1]} />
+        <EventCard event={DummyEvents["Monday"][0]} />
       </div>
     </div>
   );
