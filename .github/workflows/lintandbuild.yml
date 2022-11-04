@@ -1,0 +1,20 @@
+name: Lint and Build
+
+on:
+  pull_request:
+    branches:
+      - 'main'
+
+jobs:
+  lint:
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v3
+      - name: Lint
+        run: echo "TODO: Add linting"
+  build:
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build
+        run: echo "TODO: Add building"
