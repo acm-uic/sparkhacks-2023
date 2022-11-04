@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Lint
-        run: echo "TODO: Add linting"
+        run: echo 'TODO: Add linting'
 
   build:
     runs-on: self-hosted
