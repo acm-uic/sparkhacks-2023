@@ -1,5 +1,5 @@
 
-export default function WhoWeAreSection(){
+export default function WhoAreWe(){
     return (
             <div className={"container m-auto sm:px-[5rem]"}>
                 <div className={"text-center sm:mx-[5rem] sm:min-w-full sm:text-left"}>
