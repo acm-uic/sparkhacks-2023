@@ -46,7 +46,7 @@ export default function ArchiveCarousel() {
       <div className="whitespace-nowrap	transition duration-500" style={{transform: `translateX(-${index*100}%)`}}>
         {
           ARCHIVE.map((c) => {
-            return <Item name={c[0]} title={c[1]} description={c[2]} link={c[3]}/>
+            return <Item key={c} name={c[0]} title={c[1]} description={c[2]} link={c[3]}/>
           })
         }
       </div>
