@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { ARCHIVE } from "./allarchive";
 import { Item } from "./Item";
-import "./archivecarousel.css";
 
 export default function ArchiveCarousel() {
   const [index, setIndex] = useState(0);
@@ -31,21 +30,20 @@ export default function ArchiveCarousel() {
   })
 
   return (
-    <div className="carousel" >
-      <h1 class="grid place-items-center">Archive</h1>
-      <button className="indicatorLeft" onClick={() => {
-        updateIndex(index-1)
-        }}>
-          <img src={require('../../assets/icons/chevron-left.png')} alt="left"/>
-      </button>
+    <div className="relative overflow-hidden" >
+        <h1 className="grid place-items-center">Archive</h1>
+        <button className="invisible md:visible absolute width-auto height-auto z-10 inset-y-1/2 left-4" onClick={() => {
+          updateIndex(index-1)
+          }}>
+            <img src={require('../../assets/icons/chevron-left.png')} alt="left"/>
+        </button>
 
-      <button className="indicatorRight" onClick={() => {
-        updateIndex(index+1)
-        }}>
-          <img src={require('../../assets/icons/chevron-right.png')} alt="right"/>
-      </button>
-
-      <div className="inner" style={{transform: `translateX(-${index*100}%)`}}>
+        <button className="invisible md:visible absolute width-auto height-auto z-10 inset-y-1/2 right-4" onClick={() => {
+          updateIndex(index+1)
+          }}>
+            <img src={require('../../assets/icons/chevron-right.png')} alt="right"/>
+        </button>
+      <div className="whitespace-nowrap	transition duration-500" style={{transform: `translateX(-${index*100}%)`}}>
         {
           ARCHIVE.map((c) => {
             return <Item name={c[0]} title={c[1]} description={c[2]} link={c[3]}/>

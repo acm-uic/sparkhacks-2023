@@ -1,25 +1,13 @@
-import React, { useState, useEffect } from "react";
-import "./item.css";
-
 export const Item = (props) => {
-
-  const [matches, setMatches] = useState(
-    window.matchMedia("(min-width: 640px)").matches
-  )
-
-  useEffect( ()=> {
-    window.matchMedia("(min-width: 640px)").addEventListener('change', e=> setMatches(e.matches));
-  })
-
     return (
-      <div  class="carousel-item" style={{width: "100%"}}>
-        {matches && (<h1 class="title" >{props.title}</h1>)}
-        {!matches && (<h4 class="title-mobile" >{props.title}</h4>)}
-        {matches && (<p class="description" >{props.description}</p>)}
-        {!matches && (<p class="description-mobile" >{props.description}</p>)}
-        {matches && (<p class="link" >{props.link}</p>)}
-        {!matches && (<p class="link-mobile" >{props.link}</p>)}
-        <img src={require('../../../assets/images/archivedImages/' + props.name)} alt={props.name}/>
+      <div className="relative inline-flex items-center	justify-center" style={{width: "100%"}}>
+        <img className="brightness-50 z-0" src={require('../../../assets/images/archivedImages/' + props.name)} alt={props.name}/> 
+        <h1 className="invisible md:visible absolute top-1/3 text-white	z-10" >{props.title}</h1>
+        <h4 className="visible md:invisible absolute top-1/4 z-10 text-white z-10" >{props.title}</h4>
+        <p className="invisible md:visible absolute top-1/2 whitespace-normal	break-words	w-1/2 text-center text-white z-10" >{props.description}</p>
+        <p className="visible md:invisible absolute top-1/2 whitespace-normal	break-words	w-screen text-center text-xs text-white z-10" >{props.description}</p>
+        <p className="invisible md:visible absolute top-2/3 text-secondary-dark z-10" >{props.link}</p>
+        <p className="visible md:invisible absolute top-3/4 text-xs text-secondary-dark z-10" >{props.link}</p> 
       </div>
   
     );
