@@ -1,4 +1,3 @@
-
 export default function Description(){
     return (<div className={"container m-auto px-[5rem]"}>
                     <div className={"mx-[5rem] min-w-full"}>
