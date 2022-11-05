@@ -41,6 +41,6 @@ jobs:
       - name: Push Workflow Rev Image
         run: docker push ${{ secrets.DOCKER_USERNAME }}/flourish-2023:$GITHUB_RUN_NUMBER
       - name: Push Latest Image
-        run: docker push ${{ secrests.DOCKER_USERNAME }}/flourish-2023:latest
+        run: docker push ${{ secrets.DOCKER_USERNAME }}/flourish-2023:latest
       - name: Logout of Docker
         run: docker logout
