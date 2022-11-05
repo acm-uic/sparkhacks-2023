@@ -10,10 +10,10 @@ jobs:
     runs-on: self-hosted
     steps:
       - uses: actions/checkout@v3
-      - run: docker run --rm -v /tmp/runner/work/manage/manage:/tmp -w /tmp node:16-alpine "npm install && npm run lint"
+      - run: docker run --rm -v /tmp/runner/work/flourish-2023/flourish-2023:/tmp -w /tmp node:16-alpine "npm install && npm run lint"
 
   build:
     runs-on: self-hosted
     steps:
       - uses: actions/checkout@v3
-      - run: docker run --rm -v /tmp/runner/work/manage/manage:/tmp -w /tmp node:16-alpine "npm install && npm run build"
+      - run: docker run --rm -v /tmp/runner/work/flourish-2023/flourish-2023:/tmp -w /tmp node:16-alpine "npm install && npm run build"
