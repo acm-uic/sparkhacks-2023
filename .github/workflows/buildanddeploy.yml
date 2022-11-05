@@ -44,3 +44,10 @@ jobs:
         run: docker push ${{ secrets.DOCKER_USERNAME }}/flourish-2023:latest
       - name: Logout of Docker
         run: docker logout
+  manage:
+    runs-on: self-hosted
+    needs: deploy
+    steps:
+      - name: Start the manage workflow
+        run: curl -X POST -H "Accept: application/vnd.github+json" -H "Authorization: Bearer ${{ secrets.MANAGE_DISPATCH_TOKEN }}" https://api.github.com/repos/acm-uic/manage/actions/workflows/ansible.yml/dispatches
+
