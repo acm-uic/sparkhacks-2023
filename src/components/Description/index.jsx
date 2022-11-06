@@ -1,6 +1,7 @@
 
 export default function Description(){
-    return (<div className={"container text-center sm:text-left sm:m-auto px-[5rem]"}>
+    return (
+        <div className={"container text-center sm:text-left sm:m-auto px-[5rem]"}>
                     <div className={"sm:mx-[5rem] min-w-full"}>
                         <h1>Description</h1>
                     </div>
