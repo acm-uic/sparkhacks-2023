@@ -99,4 +99,4 @@ Adrian Knight - [@Ajknight121](https://github.com/Ajknight121)
 
 Ares Stavropoulos - [@Ares1605](https://github.com/Ares1605)
 
-Steven Trumblay = [@kaodik](https://github.com/kaodik)
+Steven Trumblay - [@kaodik](https://github.com/kaodik)
