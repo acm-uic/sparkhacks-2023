@@ -29,7 +29,7 @@ export default function Events({ events }) {
     const [active, setActive] = useState(days[0]);
 
     return (
-        <div className="container border-solid border-4 border-primary-dark">
+        <div className="border-solid border-4 border-primary-dark">
 
             {/* Day Selector */}
 
