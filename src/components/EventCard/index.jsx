@@ -2,7 +2,7 @@ import PrimaryButton from "../PrimaryButton";
 
 export default function EventCard({ event }) {
   return (
-    <div>
+    <div className="px-2">
       <div className="flex w-full py-1 items-center">
         <h4 className="flex-initial">{event.time}</h4>
         <h2 className="flex-auto ml-4">{event.header}</h2>
