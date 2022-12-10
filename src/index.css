@@ -46,3 +46,8 @@ h5 {
   font-size: 20pt;
   font-weight: normal;
 }
+
+.input-field {
+  font-size: 20pt;
+  border-radius: 100px;
+}
