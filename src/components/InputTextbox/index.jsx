@@ -1,20 +1,22 @@
-function index() {
+import { useState } from "react";
+
+export default function index(props) {
+  const [email, setEmail] = useState('');
+
+  const handleChange = e => {
+    setEmail(e.target.value);
+  };
+
   return (
-    <section>
-      <form action='' method='post'>
-        <div>
-          <input
-            type='text'
-            value=''
-            placeholder='Email:'
-            className='input-field'
-          />
-          <input type='submit' value='Submit' className='input-field' />
-        </div>
-      </form>
-      <form action='' method='post'></form>
-    </section>
+    <div>
+      <input
+        type='text'
+        onChange={handleChange}
+        value={email}
+        placeholder={props.placeholder}
+        className='input-field'
+      />
+    </div>
   );
 }
 
-export default index;
