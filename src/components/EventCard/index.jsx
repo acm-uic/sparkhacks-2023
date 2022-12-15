@@ -9,7 +9,7 @@ export default function EventCard({ event }) {
         <h2 className="hidden lg:block flex-auto ml-4">{event.header}</h2>
         <h4 className="">{event.date}</h4>
       </div>
-      <h2 className="lg:hidden flex-auto">{event.header}</h2>
+      <h2 className="lg:hidden flex-auto whitespace-nowrap">{event.header}</h2>
       <div className="flex py-1 items-center">
         <p className="pr-10">{event.description}</p>
         <div className="hidden lg:block flex-none justify-self-end">
