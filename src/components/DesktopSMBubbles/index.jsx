@@ -2,7 +2,7 @@ import { FacebookSMBubble, InstagramSMBubble, LinkedinSMBubble, TwitterSMBubble,
 
 export default function DesktopSMBubbles() {
     return( 
-        <div className="grid h-screen place-items-center w-screen">  
+        <div className="grid h-screen place-items-center">  
             <div className="relative items-center justify-center inline-flex w-7/12" >
                 <div className="relative items-center justify-center inline-flex z-0">
                     <InstagramSMBubble/>
