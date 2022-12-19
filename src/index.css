@@ -13,6 +13,10 @@
     --color-secondary-light: 219 211 79;
     --color-secondary-dark: 143 137 44;
   }
+  .input-field {
+    @apply text-xl;
+    @apply rounded-3xl;
+  }
 }
 
 body {
@@ -47,7 +51,3 @@ h5 {
   font-weight: normal;
 }
 
-.input-field {
-  font-size: 20px;
-  border-radius: 25px;
-}

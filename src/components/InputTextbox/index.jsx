@@ -1,11 +1,10 @@
-export default function index(props) {
+export default function InputTextbox(props) {
 
   return (
     <div>
       <input
         type='text'
         onChange={props.onChange}
-        value={props.onChange}
         placeholder={props.placeholder}
         className='input-field'
       />
