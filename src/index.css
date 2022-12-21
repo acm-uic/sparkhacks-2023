@@ -13,6 +13,7 @@
     --color-secondary-light: 219 211 79;
     --color-secondary-dark: 143 137 44;
   }
+  
 }
 
 body {
@@ -45,4 +46,8 @@ h4 {
 h5 {
   font-size: 20pt;
   font-weight: normal;
+}
+
+input[type = 'text'] {
+  @apply text-xl rounded-3xl border-2 border-[#AAAAAA] bg-[#EEEEEE] w-full px-4 py-1;
 }
