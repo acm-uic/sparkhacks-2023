@@ -5,7 +5,7 @@ import DummyEvents from "../api/DummyEvents";
 
 export default function EventDetails() {
   return (
-    <div className="container min-w-fit">
+    <div className="container min-w-full">
       <Events events={DummyEvents} />
     </div>
   );
