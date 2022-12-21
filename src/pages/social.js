@@ -4,14 +4,14 @@ import DesktopSMBubbles from '../components/DesktopSMBubbles';
 import DesktopNewsletter from '../components/DesktopNewsletter';
 
 
-export default function Social(){
+export default function Social() {
     return (
         <div>
             <h1>Social</h1>
-            <DesktopSMBubbles/>
+            <DesktopSMBubbles />
             <DesktopNewsletter/>
-            <ArchiveCarousel/>
+            <ArchiveCarousel />
         </div>
-    
+
     );
 }
