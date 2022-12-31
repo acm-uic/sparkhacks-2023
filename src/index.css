@@ -51,3 +51,11 @@ h5 {
 input[type = 'text'] {
   @apply text-xl rounded-3xl border-2 border-[#AAAAAA] bg-[#EEEEEE] w-full px-4 py-1;
 }
+
+textarea[type = 'textarea'] {
+  @apply text-xl rounded-3xl border-2 border-[#AAAAAA] bg-[#EEEEEE] w-full px-4 py-1;
+}
+
+select{
+  @apply text-xl rounded-3xl border-2 border-[#AAAAAA] bg-[#EEEEEE] w-full px-4 py-1;
+}
