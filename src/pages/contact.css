@@ -1,0 +1,7 @@
+select:invalid {
+    color: #9ba2af;
+}
+
+select option {
+    color: black;
+}
