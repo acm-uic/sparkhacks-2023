@@ -58,4 +58,6 @@ textarea[type = 'textarea'] {
 
 select{
   @apply text-xl rounded-3xl border-2 border-[#AAAAAA] bg-[#EEEEEE] w-full px-4 py-1;
+  -moz-appearance: none;
+  -webkit-appearance: none;
 }
