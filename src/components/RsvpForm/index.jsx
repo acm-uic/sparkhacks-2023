@@ -7,26 +7,27 @@ export default function RsvpForm(){
         setValue(event.target.value);
     };
     return (
-        <div className={"text-center"}>
-            <h1>Want to Attend?</h1>
-            <div className="grid grid-flow-row content-center w-full gap-3">
-                <input type="text" placeholder="Name" />
-                <div className={"drop-down"}>
-                    <div className={"arrow-down"}/>
-                    <select required value={value} onChange={handleChange}>
-                        <option value="" hidden>Major</option>
-                        <option value={"Computer Science"}>Computer Science</option>
-                        <option value={"Computer Engineering"}>Computer Engineering</option>
-                        <option value={"Other"}>Other</option>
+        <div className={"text-center  sm:bg-secondary-light box-border py-3"}>
+            <h1 className={"sm:text-white text-black"}>Want to Attend?</h1>
+            <div className={"flex items-center justify-center "}>
+                <div className="grid grid-flow-row w-full sm:w-1/2 gap-3 p-3 m-auto">
+                    <input type="text" placeholder="Name" />
+                    <div className={"drop-down"}>
+                        <div className={"arrow-down"}/>
+                        <select required value={value} onChange={handleChange}>
+                            <option value="" hidden>Major</option>
+                            <option value={"Computer Science"}>Computer Science</option>
+                            <option value={"Computer Engineering"}>Computer Engineering</option>
+                            <option value={"Other"}>Other</option>
+                        </select>
+                    </div>
 
-                    </select>
+                    <input type="text" placeholder="University" />
+                    <input type="text" placeholder="Email" />
+                    <PrimaryButton className={"w-full"} innerText="RSVP"/>
                 </div>
-
-
-                <input type="text" placeholder="University" />
-                <input type="text" placeholder="Email" />
-                <PrimaryButton className={"w-full"} innerText="RSVP"/>
             </div>
+
         </div>
 
     )

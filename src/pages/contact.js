@@ -4,7 +4,7 @@ import SpeakersSection from "../components/SpeakersSection";
 import ContactUs from "../components/ContactUs";
 export default function Contact(){
     return (
-        <div className={"m-3"}>
+        <div className={""}>
             <RsvpForm/>
             <SpeakersSection/>
             <ContactUs/>
