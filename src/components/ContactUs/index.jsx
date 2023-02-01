@@ -11,12 +11,18 @@ export default function ContactUs(){
             <h1>Contact Us!</h1>
             <div className="grid grid-flow-row w-full gap-3">
                 <input type="text" placeholder="Name" />
-                <select required value={value} onChange={handleChange}>
-                    <option value="" hidden>Reason</option>
-                    <option value={"Sponsorship"}>Interested in sponsoring</option>
-                    <option value={"Speaker"}>Interested in being a speaker</option>
-                    <option value={"Other"}>Other</option>
-                </select>
+                <div className={"drop-down"}>
+                    <div className={"arrow-down"}/>
+                    <select required value={value} onChange={handleChange}>
+
+                        <option value="" hidden>Reason</option>
+                        <option value={"Sponsorship"}>Interested in sponsoring</option>
+                        <option value={"Speaker"}>Interested in being a speaker</option>
+                        <option value={"Other"}>Other</option>
+                    </select>
+                </div>
+
+
                 <textarea type="textarea" rows={5} placeholder="Additional Details" />
                 <PrimaryButton className={"w-full"} innerText="Send"/>
             </div>
