@@ -7,10 +7,10 @@ export default function RsvpForm(){
         setValue(event.target.value);
     };
     return (
-        <div className={"text-center  sm:bg-secondary-light box-border py-3"}>
+        <div className={"text-center sm:bg-primary box-border py-3"}>
             <h1 className={"sm:text-white text-black"}>Want to Attend?</h1>
             <div className={"flex items-center justify-center "}>
-                <div className="grid grid-flow-row w-full sm:w-1/2 gap-3 p-3 m-auto">
+                <div className="grid grid-flow-row w-full sm:max-w-2xl gap-3 p-3 m-auto">
                     <input type="text" placeholder="Name" />
                     <div className={"drop-down"}>
                         <div className={"arrow-down"}/>

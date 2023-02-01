@@ -8,9 +8,9 @@ export default function ContactUs(){
     };
     return (
         <div className={"grid h-screen bg-primary place-items-center"}>
-            <div className="absolute h-fit w-1/2 px-7 py-10 drop-shadow-[-90px_-60px_4px_rgba(0,0,0,0.5)] bg-secondary-light rounded-[2.813rem]">
+            <div className="absolute h-fit w-1/2 min-w-max px-7 py-10 drop-shadow-[-90px_-60px_4px_rgba(0,0,0,0.5)] bg-secondary-light rounded-[2.813rem]">
                 <h1>Contact Us!</h1>
-                <div className="grid grid-flow-row w-full gap-3">
+                <div className="grid grid-flow-row gap-1 w-full min-w-max p-3">
                     <input type="text" placeholder="Name" />
                     <div className={"drop-down"}>
                         <div className={"arrow-down"}/>
