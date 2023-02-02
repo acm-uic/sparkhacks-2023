@@ -1,6 +1,5 @@
 import PrimaryButton from "../PrimaryButton";
 
-
 export default function EventCard({ event }) {
   return (
     <div className="px-2">
@@ -11,7 +10,7 @@ export default function EventCard({ event }) {
       </div>
       <h2 className="lg:hidden flex-auto">{event.header}</h2>
       <div className="flex py-1 items-center">
-        <p className="pr-10">{event.description}</p>
+        <p className="pr-10 text-justify">{event.description}</p>
         <div className="hidden lg:block flex-none justify-self-end">
           <PrimaryButton innerText={"Show on Map"} />
         </div>
