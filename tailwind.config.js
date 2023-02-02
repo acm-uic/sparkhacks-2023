@@ -15,6 +15,7 @@ module.exports = {
         dark: "rgb(var(--color-secondary-dark) / <alpha-value>)",
       },
       'white': '#FFFFFF',
+      'black': '#000000',
     }, 
     extend: {},
   },

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Day from "./Day";
 import EventCard from "../EventCard";
-
+import MobileDay from "./MobileDay";
 //List of days
 const days = [
   "Monday",
@@ -39,7 +39,7 @@ export default function Events({ events }) {
 
   return (
     <>
-      {/* Large and above dislay */}
+      {/* Large and above screen */}
       <div className="hidden lg:block border-solid border-4 border-primary-dark min-w-full">
         {/* Day Selector */}
 
@@ -58,6 +58,18 @@ export default function Events({ events }) {
 
         {/* Events of the selected day */}
         {events[active] ? showEvents(events[active]) : showNone()}
+      </div>
+
+      {/* Medium and smaller screen */}
+      <div className="lg:hidden overflow-hidden">
+        {days.map((day, i) => (
+          <MobileDay
+          index={i}
+            key={day}
+            text={day}
+            events={events[day] ? showEvents(events[day]) : showNone()}
+          />
+        ))}
       </div>
     </>
   );
