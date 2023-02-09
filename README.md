@@ -105,3 +105,4 @@ Luke Hartzell - [@LukeHartzell1](https://github.com/LukeHartzell1)
 
 Lei Chen - [@flypoodles](https://github.com/flypoodles)
 
+Sam E - [@dejazzhands](https://github.com/dejazzhands)
