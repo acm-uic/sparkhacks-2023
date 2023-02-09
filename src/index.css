@@ -67,6 +67,7 @@ select{
 }
 
  .arrow-down {
+     pointer-events: none;
   position: absolute;
   right: 30px;
   top: 12px;
