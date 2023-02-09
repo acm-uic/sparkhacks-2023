@@ -2,6 +2,11 @@ name: Lint and Build
 
 on:
   pull_request:
+    paths-ignore:
+      - '.github/workflow/buildanddeploy.yml'
+      - '.gitignore'
+      - 'docs/**'
+      - '*.md'
     branches:
       - 'main'
 
