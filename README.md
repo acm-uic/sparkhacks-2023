@@ -102,3 +102,6 @@ Ares Stavropoulos - [@Ares1605](https://github.com/Ares1605)
 Steven Trumblay - [@kaodik](https://github.com/kaodik)
 
 Luke Hartzell - [@LukeHartzell1](https://github.com/LukeHartzell1)
+
+Lei Chen - [@flypoodles](https://github.com/flypoodles)
+
