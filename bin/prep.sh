@@ -3,7 +3,7 @@
 if [ -z "$1" ];
 then
   echo "Usage: $0 <name-of-new-branch>"
-  exit(1)
+  exit 1
 fi
 
 if [ $# -gt 1 ];
