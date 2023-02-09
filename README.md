@@ -1,73 +1,51 @@
-# Getting Started with Create React App
+# UIC SparkHacks 2023 Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the UIC SparkHacks 2023 student built website! The following will show you how to get started making your first contribution!
 
-## Available Scripts
+## Setting up your environment
 
-In the project directory, you can run:
+> This guide assumes you have your Github [setup with an SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account), and that you have been added to the project
 
-### `npm start`
+You will need to install the following programs
+- [Git](https://git-scm.com/downloads)
+- [Node.js](https://nodejs.org/en/) (Use the LTS release)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Once you have installed the above, open your terminal and execute the following commands
+- `git clone git@github.com:acm-uic/flourish-2023.git` (You may want to clone this to your Downloads or other folder)
+- `cd flourish-2023`
+- `npm install`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Once you have done these steps, you are good to go!
 
-### `npm test`
+## Running the application
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Running the website locally is as simple as `npm start`!
 
-### `npm run build`
+## Making a contribution
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Follow the guide in the [wiki](https://github.com/acm-uic/flourish-2023/wiki/Guide-to-Contribution)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Helper scripts
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+I have included some helper scripts for those of you who are new to Git
 
-### `npm run eject`
+#### `bin/prep.sh`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This script prepares the Git environment for you to start your development from a fresh and up to date point.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+`Usage: bin/prep.sh <name-of-your-branch>`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Make sure your branch name is correctly formatted, no spaces, no uppercase, dashes seperate words, and descriptive
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#### `bin/commit.sh`
 
-## Learn More
+This script pushes your latest changes to your branch and prepares it for a pull request.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+`Usage: bin/commit.sh`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+If it is your first push it will give you a link to create a pull request. Click that link and create the pull request.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This script will likely open your editor asking for input. Put the title of the PR in the first line, and the description in the second line. (Hint: If your default is VIM or VI, use `:wq` to exit)
 
 ## Contributors
 
