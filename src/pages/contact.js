@@ -1,11 +1,13 @@
 import './contact.css';
+import RsvpForm from "../components/RsvpForm";
 import SponsorsSection from '../components/SponsorsSection';
-
+import ContactUs from "../components/ContactUs";
 export default function Contact(){
     return (
-        <div>
-            <h1>Contact</h1>
+        <div className={""}>
+            <RsvpForm/>
             <SponsorsSection/>
+            <ContactUs/>
         </div>
     )
 }
