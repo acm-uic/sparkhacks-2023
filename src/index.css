@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @layer base {
   :root {
     /* Defines the primary and secondary colors as CSS variables for use in rgb color space function.
@@ -14,6 +15,9 @@
     --color-secondary-dark: 143 137 44;
   }
   
+  html {
+    @apply text-white;
+  }
 }
 
 body {
