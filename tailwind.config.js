@@ -18,5 +18,12 @@ module.exports = {
     }, 
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    plugin(({addBase, theme}) => {
+      addBase({
+        // or whichever color you'd like
+        'html': {color: theme('colors.white')},
+      });
+    })
+  ],
 };
