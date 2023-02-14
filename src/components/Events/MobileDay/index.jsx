@@ -14,7 +14,7 @@ export default function MobileDay({ index,text, events }) {
           <path d="M256 32L20 464h472L256 32z" />
         </svg>
       </div>
-      <div className="group-focus:max-h-screen max-h-0 px-4 overflow-hidden ease duration-500">
+      <div className="group-focus:max-h-fit max-h-0 px-4 overflow-hidden ease duration-500">
         <div className="p-2 text-justify">{events}</div>
       </div>
     </div>
