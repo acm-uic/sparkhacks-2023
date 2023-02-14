@@ -1,8 +1,8 @@
 export default function MobileDay({ index,text, events }) {
   return (
     <div className="group outline-none" tabIndex={index}>
-      <div className="group bg-primary flex justify-between px-6 py-4 items-center text-gray-500 transition ease duration-500 cursor-pointer">
-        <h3 className="text-white group-focus:text-black transition ease duration-500">
+      <div className="group bg-primary group-focus:bg-primary-dark flex justify-between px-6 py-4 items-center text-gray-500 transition ease duration-500 cursor-pointer">
+        <h3 className="text-white transition ease duration-500">
           {text}
         </h3>
         <svg
