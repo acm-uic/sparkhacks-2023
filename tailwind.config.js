@@ -14,14 +14,10 @@ module.exports = {
         light: "rgb(var(--color-secondary-light) / <alpha-value>)",
         dark: "rgb(var(--color-secondary-dark) / <alpha-value>)",
       },
-      'white': '#FFFFFF',
-      'black': '#000000',
-    }, 
-    extend: {
-      maxHeight: {
-        'extra': '500vh',
-        },
+      white: "#FFFFFF",
+      black: "#000000",
     },
+    extend: {},
   },
   plugins: [],
 };
