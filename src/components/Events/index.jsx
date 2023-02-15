@@ -64,7 +64,7 @@ export default function Events({ events }) {
       <div className="lg:hidden overflow-hidden">
         {days.map((day, i) => (
           <MobileDay
-          index={i}
+            index={i + 1}
             key={day}
             text={day}
             events={events[day] ? showEvents(events[day]) : showNone()}

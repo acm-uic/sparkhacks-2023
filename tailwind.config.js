@@ -17,7 +17,11 @@ module.exports = {
       'white': '#FFFFFF',
       'black': '#000000',
     }, 
-    extend: {},
+    extend: {
+      maxHeight: {
+        'extra': '500vh',
+        },
+    },
   },
   plugins: [],
 };
