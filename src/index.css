@@ -6,12 +6,12 @@
   :root {
     /* Defines the primary and secondary colors as CSS variables for use in rgb color space function.
     Example for primary color rgb(131 38  144 / <alpha-value>) where alpha-value will be provided by tailwindcss opacity modifiers (if used) */
-    --color-primary: 131 38 144;
-    --color-primary-light: 208 123 219;
-    --color-primary-dark: 84 24 92;
+    --color-primary: 62 59 135;
+    --color-primary-light: 103 99 199;
+    --color-primary-dark: 10 8 58;
 
-    --color-secondary-light: 219 211 79;
-    --color-secondary-dark: 143 137 44;
+    --color-secondary-light: 221 199 237;
+    --color-secondary-dark: 134 63 186;
   }
   
 }
