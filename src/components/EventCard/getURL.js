@@ -3,7 +3,6 @@ const isPhone = /Mobile/i.test(navigator.userAgent);
 
 //Check what the platform of user is
 const isAndroid = /Android/i.test(navigator.userAgent);
-const isIOS = /iPhone|iPad|iPod/i.test(navigator.userAgent);
 
 //Dynamically generate URLs
 export default function getURL(latitude, longitude, label) {
