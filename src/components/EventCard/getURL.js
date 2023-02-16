@@ -8,6 +8,7 @@ const isAndroid = /Android/i.test(navigator.userAgent);
 export default function getURL(latitude, longitude, label) {
   //Handle phones
   if (isPhone) {
+    //Retruns a link for Android phone, otherwise return a link for iPhones
     return isAndroid
       ? "geo:" + latitude + "," + longitude + "?q=" + encodeURIComponent(label)
       : "maps://" +
@@ -18,7 +19,7 @@ export default function getURL(latitude, longitude, label) {
           encodeURIComponent(label);
   }
 
-  //Handle desktop
+  //Handle PCs by returning a Google maps link (as a default)
   return (
     "https://www.google.com/maps/search/?api=1&query=" +
     encodeURI(label) +
