@@ -3,15 +3,15 @@
 export default function StaggeredTextObjs ( props ) {
 
     const leftSide = {
-        backgroundColor: "red",
         marginLeft: 0,
         paddingLeft: 15,
+        paddingBottom:10,
         textAlign: "left",
     }
     const rightSide = {
-        backgroundColor: "blue",
         marginRight: 0,
         paddingRight: 15,
+        paddingBottom: 10,
         textAlign: "right",
     }
 

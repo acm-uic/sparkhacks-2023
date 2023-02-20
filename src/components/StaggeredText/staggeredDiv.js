@@ -3,12 +3,10 @@
 export default function StaggeredTextDivs ( props ) {
 
     const leftSide = {
-        backgroundColor: "red",
         marginLeft: 0,
         textAlign: "left",
     }
     const rightSide = {
-        backgroundColor: "blue",
         marginRight: 0,
         textAlign: "right",
     }
