@@ -4,10 +4,11 @@ import ExecutiveLeaders from '../components/ExecutiveLeaders';
 import Description from '../components/Description';
 import ArchiveCarousel from '../components/ArchiveCarousel';
 import WhoAreWe from '../components/WhoAreWe';
-import StaggeredText from "../components/StaggeredText";
+import StaggeredTextDivs from "../components/StaggeredText/staggeredDiv";
+import StaggeredTextObjs from "../components/StaggeredText/staggeredObject";
 
 export default function About(){
-    const exampleSections = [
+    const exampleObjects = [
         {
             id: 0,
             header: "WebScrape Crash Course",
@@ -15,7 +16,7 @@ export default function About(){
         },
         {
             id: 1,
-            header: "'Yoohoo, big summer blowout'",
+            header: "'Yoohoo! big summer blowout'",
             body: "This is an example of a really really long text. A long text is totally like a long thing A long text is totally like a long thingA long text is totally like a long thingA long text is totally like a long thingA long text is totally like a long thingA long text is totally like a long thingA long text is totally like a long thingA long text is totally like a long thing"
         },
         {
@@ -29,8 +30,23 @@ export default function About(){
             body: "Would the owner of the green and black Jeep please move your vehicle, it is blocking the exit."
         }
     ]
+    const exampleDivs = [
+        (<div key={4} className={"bg-[green] px-6 py-2"}>
+            <h1>Q: How do I install Linux?</h1>
+            <p>A: You actually do not want to install linux, for once you do you will never escape.</p>
+        </div>),
+        (<div key={5} className={"bg-[orange] px-6 py-2"}>
+            <h1>Q: How do I install Windows?</h1>
+            <p>A: You already have it installed, everyone does...</p>
+        </div>),
+        (<div key={6} className={"bg-[brown] px-6 py-2"}>
+            <h1>Q: Anime?</h1>
+            <p>A: No, no anime. In fact here is a link to destroy your beliefs <a href={"https://youtu.be/dQw4w9WgXcQ"}> LINK TO YOUR MOM LOL</a>. I bet you feel really silly now. Now imagine the rest is a really long explanation. This is an example of a really really long text. A long text is totally like a long thing A long text is totally like a long thingA long text is totally like a long thingA long text is totally like a long thingA long text is totally like a long thingA long text is totally like a long thingA long text is totally like a long thingA long text is totally like a long thing</p>
+        </div>),
+    ]
     return (<div>
-                <StaggeredText sections = {exampleSections}/>
+                <StaggeredTextDivs sections = {exampleDivs}/>
+                <StaggeredTextObjs sections = {exampleObjects}/>
                  <WhoAreWe/>
                 <Description/>
                 <ExecutiveLeaders/>
