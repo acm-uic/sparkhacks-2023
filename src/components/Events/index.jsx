@@ -4,13 +4,13 @@ import EventCard from "../EventCard";
 import MobileDay from "./MobileDay";
 //List of days
 const days = [
-  "Monday",
-  "Tuesday",
-  "Wednesday",
-  "Thursday",
+  // "Monday",
+  // "Tuesday",
+  // "Wednesday",
+  // "Thursday",
   "Friday",
   "Saturday",
-  "Sunday",
+  // "Sunday",
 ];
 
 // Helper function to map all events from listOfEvents to EventCards
