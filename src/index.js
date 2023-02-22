@@ -18,7 +18,7 @@ import {
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename='/2023'>
+    <BrowserRouter>
         <Routes>
             <Route path="/" element={<Layout />}>
                 <Route index element={<Home />}></Route>
