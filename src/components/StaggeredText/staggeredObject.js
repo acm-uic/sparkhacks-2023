@@ -19,9 +19,9 @@ export default function StaggeredTextObjs ( props ) {
     props.sections.forEach((section, i) => {
         sectionItems.push(
             <section key = {section.id} style = {(i % 2 === 0) ? leftSide : rightSide}>
-            <h1>
+            <h2>
                 {section.header}
-            </h1>
+            </h2>
                 <p>
                     {section.body}
                 </p>

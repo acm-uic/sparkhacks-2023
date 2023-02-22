@@ -10,15 +10,15 @@ import StaggeredTextObjs from "../components/StaggeredText/staggeredObject";
 export default function About(){
     const exampleDivs = [
         (<div key={4} className={"px-6 py-2"}>
-            <h1>Q: How do I install Linux?</h1>
+            <h2>Q: How do I install Linux?</h2>
             <p>A: You actually do not want to install linux, for once you do you will never escape.</p>
         </div>),
         (<div key={5} className={"px-6 py-2"}>
-            <h1>Q: How do I install Windows?</h1>
+            <h2>Q: How do I install Windows?</h2>
             <p>A: You already have it installed, everyone does...</p>
         </div>),
         (<div key={6} className={"px-6 py-2"}>
-            <h1>Q: Anime?</h1>
+            <h2>Q: Anime?</h2>
             <p>A: No, no anime. In fact here is a link to destroy your beliefs <a href={"https://youtu.be/dQw4w9WgXcQ"}> LINK TO YOUR MOM LOL</a>. I bet you feel really silly now. Now imagine the rest is a really long explanation. This is an example of a really really long text. A long text is totally like a long thing A long text is totally like a long thingA long text is totally like a long thingA long text is totally like a long thingA long text is totally like a long thingA long text is totally like a long thingA long text is totally like a long thingA long text is totally like a long thing</p>
         </div>),
     ]
