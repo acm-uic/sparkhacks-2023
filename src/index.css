@@ -14,6 +14,11 @@
     --color-secondary-dark: 134 63 186;
   }
   
+  html {
+    @apply text-white;
+  }
+  
+  
 }
 
 body {
