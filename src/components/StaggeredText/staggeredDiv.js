@@ -1,4 +1,4 @@
-
+import {exampleDivs} from "./exampleDIV";
 
 export default function StaggeredTextDivs ( props ) {
 

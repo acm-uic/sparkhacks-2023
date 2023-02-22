@@ -1,4 +1,4 @@
-
+import {exampleObjects} from "./exampleOBJ";
 
 export default function StaggeredTextObjs ( props ) {
 
