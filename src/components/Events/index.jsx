@@ -4,13 +4,13 @@ import EventCard from "../EventCard";
 import MobileDay from "./MobileDay";
 //List of days
 const days = [
-  "Monday",
-  "Tuesday",
-  "Wednesday",
-  "Thursday",
+  // "Monday",
+  // "Tuesday",
+  // "Wednesday",
+  // "Thursday",
   "Friday",
   "Saturday",
-  "Sunday",
+  // "Sunday",
 ];
 
 // Helper function to map all events from listOfEvents to EventCards
@@ -61,7 +61,7 @@ export default function Events({ events }) {
       </div>
 
       {/* Medium and smaller screen */}
-      <div className="lg:hidden overflow-hidden">
+      <div className="lg:hidden overflow-hidden min-w-full">
         {days.map((day, i) => (
           <MobileDay
             index={i + 1}

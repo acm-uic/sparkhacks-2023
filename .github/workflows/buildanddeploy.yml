@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Build Project
-        run: docker run --rm -v /tmp/runner/work/flourish-2023/flourish-2023:/tmp -w /tmp --entrypoint "/bin/sh" node:16-alpine -c "npm install && DISABLE_ESLINT_PLUGIN=true npm run build"
+        run: docker run --rm -v ${{ github.workspace }}:/tmp -w /tmp --entrypoint "/bin/sh" node:16-alpine -c "npm install && DISABLE_ESLINT_PLUGIN=true npm run build"
       - name: Build Image
         run: docker build -t local/flourish-2023:$GITHUB_RUN_NUMBER .
       - name: Save Image
