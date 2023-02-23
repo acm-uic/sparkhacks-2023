@@ -4,7 +4,7 @@ export default function Day({ isActive, text, handleClick }) {
 
     // Apply styling based on selected day
 
-    const styling = isActive === true ? baseStyle + "bg-white text-black" : baseStyle + "bg-primary-dark text-white"
+    const styling = isActive === true ? baseStyle + "bg-primary-dark" : baseStyle + "bg-primary-light"
 
     // Return styled button
 

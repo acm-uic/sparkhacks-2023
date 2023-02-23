@@ -61,7 +61,7 @@ export default function Events({ events }) {
       </div>
 
       {/* Medium and smaller screen */}
-      <div className="lg:hidden overflow-hidden">
+      <div className="lg:hidden overflow-hidden min-w-full">
         {days.map((day, i) => (
           <MobileDay
             index={i + 1}
