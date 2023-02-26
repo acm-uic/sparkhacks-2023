@@ -1,4 +1,4 @@
-export const exampleDivs = [
+export const responseDivs = [
     (<div key={3} className={"px-6 py-2"}>
         <h2>Q: How do I install Linux?</h2>
         <p>A: You actually do not want to install linux, for once you do you will never escape.</p>

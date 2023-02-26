@@ -1,4 +1,4 @@
- export const exampleObjects = [
+ export const responseObjects = [
         {
             id: 0,
             header: "WebScrape Crash Course",
