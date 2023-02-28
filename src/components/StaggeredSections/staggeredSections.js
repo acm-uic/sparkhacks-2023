@@ -23,15 +23,15 @@ export default function StaggeredSections ( props ) {
         )
     } else {
         const leftSide = {
-        marginLeft: 0,
+        marginLeft: 15,
         paddingLeft: 15,
-        paddingBottom:10,
+        paddingBottom:15,
         textAlign: "left",
     }
         const rightSide = {
-        marginRight: 0,
+        marginRight: 15,
         paddingRight: 15,
-        paddingBottom: 10,
+        paddingBottom: 15,
         textAlign: "right",
     }
 
