@@ -1,6 +1,6 @@
 .centered {
     position: absolute;
-    top: 70%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -15,11 +15,11 @@
     font-size: 80pt;
   }
 
-/*center h3*/
-.h3{
-    position: relative;
-    text-align: center;
+/*center h3, appropriately space them and make the font-size smaller than h1*/
+.b{
+    position: absolute;
     top: 60%;
-    left: 40%;
+    left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 40pt;
   }
