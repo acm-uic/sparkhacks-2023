@@ -4,7 +4,6 @@ import ExecutiveLeaders from '../components/ExecutiveLeaders';
 import Description from '../components/Description';
 import ArchiveCarousel from '../components/ArchiveCarousel';
 import WhoAreWe from '../components/WhoAreWe';
-
 export default function About(){
     return (<div>
                 <WhoAreWe/>
