@@ -1,11 +1,15 @@
 import './home.css'
-import '../components/SponsorsSection'
-import SponsorsSection from '../components/SponsorsSection'
+import Header from '../components/Header/header';
+import React from 'react';
+
 
 export default function Home(){
     return (<div className=''>
-      <h1>Home</h1>
-      <SponsorsSection />
+      <div className="centered">
+        <h1>SparkHacks 2023</h1>
+        <h3>April 7-8</h3>
+      </div>  
+      <Header />
         
     </div>)
 }
