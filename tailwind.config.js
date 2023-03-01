@@ -20,6 +20,22 @@ module.exports = {
       white: "#FFFFFF",
       black: "#000000",
     },
+    keyframes: {
+      halfFadeout: {
+        '0%': { opacity: 1 },
+        '90%': {opacity: 1 },
+        '100%': {opacity: .5}
+      },
+      fadeIn: {
+        '0%': {opacity: 0},
+        '90': {opacity: 0},
+        '100%': {opacity: 1}
+      }
+    },
+    animation: {
+      'fadeout-half': 'halfFadeout 2s linear',
+      'fadein': 'fadeIn 2s linear'
+    },
     extend: {},
   },
   plugins: [],
