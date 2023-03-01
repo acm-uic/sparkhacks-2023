@@ -41,8 +41,10 @@ export default function Home() {
                     </div>
                 </div>
                 <div className='text-center'>
-                    <p className='text-[12px] '>Copyright © Association for Computing Machinery 2023</p>
-                    <p className='text-[12px]'>License is located on this sites <a href="https://github.com/acm-uic/sparkhacks-2023">Github Repo.</a></p>
+                    <p className='text-[12px]'>Copyright © Association for Computing Machinery 2023</p>
+                    <p className='text-[12px]'>License is located on this sites
+                        <a href="https://github.com/acm-uic/sparkhacks-2023">Github Repo.</a>
+                    </p>
                 </div>
             </div>
         </div>
