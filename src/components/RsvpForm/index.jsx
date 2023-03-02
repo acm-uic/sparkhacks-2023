@@ -13,7 +13,7 @@ export default function RsvpForm(){
                     <img className={"hidden sm:block relative w-full"} src={require("../../assets/images/archivedImages/2018.png")} alt={"stock group photo"}/>
                 </div>
                 <div className={"sm:absolute top-0 mx-auto block p-2 w-full"}>
-                    <h1 className={"sm:text-white text-black"}>Want to Attend?</h1>
+                    <h1 className={"sm:text-white md:text-black lg:text-black xl:text-black 2xl:text-black"}>Want to Attend?</h1>
                     <div className={"flex items-center justify-center "}>
                         <div className="grid grid-flow-row w-full sm:max-w-2xl gap-3 p-3 m-auto">
                             <input type="text" placeholder="Name" />
