@@ -6,7 +6,7 @@ export default function Home(){
     return (
         <div>
             <div className={"h-5 mb-1"}></div>
-            <nav className={"fixed block top-0 w-full bg-[#3E3B87] z-50"}>
+            <nav className={"fixed block top-0 w-full bg-primary-light z-50"}>
                 <ul className={"flex items-center"}>
                     <li ><img src={sparkLogo} className={"h-12 m-0 inline-block px-1 py-1 align-center box-content"} alt={"spark hacks logo"}/></li>
                     <li className={"w-fit h-fit m-0 inline-block pl-4 pr-2 align-center"}><h5><b>SparkHacks 2023</b></h5></li>
