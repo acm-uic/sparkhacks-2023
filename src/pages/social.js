@@ -1,5 +1,4 @@
 import "./social.css";
-import ArchiveCarousel from "../components/ArchiveCarousel";
 import DesktopSMBubbles from "../components/DesktopSMBubbles";
 import DesktopNewsletter from "../components/DesktopNewsletter";
 import MobileSMBubbles from "../components/MobileSMBubbles";
@@ -15,7 +14,6 @@ export default function Social() {
       <div className="lg:hidden">
         <MobileSMBubbles />
       </div>
-      <ArchiveCarousel />
     </div>
   );
 }
