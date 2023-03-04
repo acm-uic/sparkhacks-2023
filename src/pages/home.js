@@ -3,6 +3,7 @@ import SponsorsSection from '../components/SponsorsSection'
 import HomeHeader from '../components/HomeHeader/'
 import StaggeredSections from '../components/StaggeredSections/staggeredSections.js'
 import {WhatDoIGetOutOfThis, FAQs} from '../content/StaggeredTextComponents.js'
+import MemberOrganizationSection from '../components/MemberOrganizationsSection'
 
 export default function Home(){
     return (<div className='text-center space-y-10'>
@@ -13,6 +14,7 @@ export default function Home(){
           <SponsorsSection />
           <h1>FAQs</h1>
           <StaggeredSections sections={FAQs} />
+          <MemberOrganizationSection />
         </div>
         
     </div>)
