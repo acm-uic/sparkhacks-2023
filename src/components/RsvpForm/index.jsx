@@ -9,11 +9,11 @@ export default function RsvpForm(){
     return (
         <div className={"text-center box-border pb-3"}>
             <div className={"relative block"}>
-                <div className={"block relative box-border w-fit overflow-hidden max-h-[410px]"}>
-                    <img className={"hidden sm:block relative"} src={require("../../assets/images/archivedImages/2018.png")} alt={"stock group photo"}/>
+                <div className={"block relative box-border object-cover overflow-hidden max-h-[410px]"}>
+                    <img className={"hidden sm:block relative w-full"} src={require("../../assets/images/archivedImages/2018.png")} alt={"stock group photo"}/>
                 </div>
                 <div className={"sm:absolute top-0 mx-auto block p-2 w-full"}>
-                    <h1 className={"sm:text-white text-black"}>Want to Attend?</h1>
+                    <h1 className={"text-white md:text-black"}>Want to Attend?</h1>
                     <div className={"flex items-center justify-center "}>
                         <div className="grid grid-flow-row w-full sm:max-w-2xl gap-3 p-3 m-auto">
                             <input type="text" placeholder="Name" />
