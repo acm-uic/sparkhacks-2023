@@ -9,8 +9,8 @@ export default function HomeHeader(){
         <h1 className="md:text-8xl">SparkHacks 2023</h1>
         <h2>April 7-8th</h2>
         <div className="flex items-center justify-center flex-wrap md:flex-nowrap my-5 gap-5 mx-5">
-          <PrimaryButton className="flex-1" innerText="RSVP" color={"dark"}/>
-          <PrimaryButton className="flex-1" innerText="Newsletter" color={"dark"}/>
+          <a className="flex-1" href='https://bit.ly/sparkhacks-registration-2023'><PrimaryButton innerText="RSVP" color={"dark"}/></a>
+          <a className='flex-1' href='#'><PrimaryButton innerText="Newsletter" color={"dark"}/></a>
         </div>
       </div>
     
