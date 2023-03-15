@@ -55,7 +55,7 @@ h5 {
 }
 
 input[type = 'text'] {
-  @apply text-xl rounded-3xl border-2 border-[#AAAAAA] bg-[#EEEEEE] w-full px-4 py-1;
+  @apply text-xl rounded-3xl border-2 border-[#AAAAAA] bg-[#EEEEEE] w-full px-4 py-1 text-black;
 }
 
 textarea[type = 'textarea'] {
