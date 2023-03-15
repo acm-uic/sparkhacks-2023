@@ -1,7 +1,7 @@
 import {useState, useEffect} from "react"
 
 export default function StaggeredSections ( props ) {
-  const [isMobile, setIsMobile] = useState(false)
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 720)
   const PADDING = 30
 
   //choose the screen size 
