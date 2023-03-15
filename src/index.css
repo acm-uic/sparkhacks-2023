@@ -59,11 +59,11 @@ input[type = 'text'] {
 }
 
 textarea[type = 'textarea'] {
-  @apply text-xl rounded-3xl border-2 border-[#AAAAAA] bg-[#EEEEEE] w-full px-4 py-1;
+  @apply text-xl rounded-3xl border-2 border-[#AAAAAA] bg-[#EEEEEE] w-full px-4 py-1 text-black;
 }
 
 select{
-  @apply text-xl rounded-3xl border-2 border-[#AAAAAA] bg-[#EEEEEE] w-full px-4 py-1;
+  @apply text-xl rounded-3xl border-2 border-[#AAAAAA] bg-[#EEEEEE] w-full px-4 py-1 text-black;
   -moz-appearance: none;
   -webkit-appearance: none;
 }
