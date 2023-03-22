@@ -4,7 +4,7 @@ import ExecutiveLeaders from '../components/ExecutiveLeaders';
 import Description from '../components/Description';
 import WhoAreWe from '../components/WhoAreWe';
 export default function About(){
-    return (<div>
+    return (<div className={"container w-fit"}>
                 <Description/>
                 <WhoAreWe/>
                 <ExecutiveLeaders/>
