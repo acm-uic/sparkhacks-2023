@@ -40,7 +40,7 @@ export default function Events({ events }) {
   return (
     <>
       {/* Large and above screen */}
-      <div className="hidden lg:block border-solid border-4 border-primary-dark min-w-full">
+      <div className="hidden lg:block min-w-full">
         {/* Day Selector */}
 
         <div className="grid grid-flow-col">

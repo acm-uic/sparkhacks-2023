@@ -10,14 +10,14 @@ import Annie from '../../assets/images/annie_you.png'
 import Sam from '../../assets/images/sam_effendy.jpg'
 
 export const IMAGE_LINKS = [
-    Omotola,
-    Sydney,
-    Krish,
-    Krisha,
-    Christian,
-    Darlene,
-    Bhuvni,
-    Nandana,
-    Annie,
-    Sam,
+  ["Omotola Elujulo", Omotola],
+  ["Sydney Wells", Sydney],
+  ["Krish Bavana", Krish],
+  ["Krisha Patel", Krisha],
+  ["Christian Bingman", Christian],
+  ["Darlene Marchan", Darlene],
+  ["Bhuvni Shah", Bhuvni],
+  ["Nandana Sheri", Nandana],
+  ["Annie You", Annie],
+  ["Sam Effendy", Sam],
 ];

@@ -2,13 +2,8 @@ import PrimaryButton from '../PrimaryButton'
 
 export default function MobileNewsletter() {
   let email = ""
-  function newslettersignup(email) {
-    if (email != ""){
-      fetch(`https://n8n.christianbingman.com/webhook/sparkhacks-newsletter?email=${email}`)
-        .then((res) => res.json())
-        .then(() => alert(`You have been signed up!`))
-        .catch(() => alert('There was an error signing you up, please reach out to info@sparkhacksatuic.com'))
-    }
+  function newslettersignup() {
+    alert("Our newsletter sign ups has closed for this event! We hope to see you next year!")
   }
   return (
     <div className='text-center space-y-3 mx-2'>

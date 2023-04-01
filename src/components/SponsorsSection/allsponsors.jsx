@@ -3,6 +3,7 @@ import Cat from '../../assets/images/cat.png'
 import Abbvie from '../../assets/images/abbvie.jpg'
 import Grainger from '../../assets/images/grainger.png'
 import Codepath from '../../assets/images/codepath.png'
+import UICInnovation from '../../assets/images/uic-innovation.jpg'
 export const IMAGE_LINKS = [
     "https://pbs.twimg.com/profile_images/999836329230843904/8H5CIIXK_400x400.jpg",
     Salesforce,
@@ -10,4 +11,5 @@ export const IMAGE_LINKS = [
     Abbvie,
     Grainger,
     Codepath,
+    UICInnovation,
 ];

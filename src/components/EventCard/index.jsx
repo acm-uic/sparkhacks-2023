@@ -32,14 +32,14 @@ export default function EventCard({ event }) {
   ) : (
     <div className="px-2">
       <div className="flex justify-between flex-row w-full items-center py-1">
-        <h4>{event.time}</h4>
+        <h4 className="whitespace-nowrap">{event.time}</h4>
         <h2 className="hidden lg:block flex-auto ml-4">{event.header}</h2>
         <h4>{event.date}</h4>
       </div>
       <h2 className="lg:hidden flex-auto text-left">{event.header}</h2>
-      <div className="flex py-1 items-center">
+      <div className="flex py-1 items-center place-content-between">
         <p className="pr-10 text-justify">{event.description}</p>
-        <div className="hidden lg:block flex-none justify-self-end">
+        <div className="hidden lg:block flex-none">
           <PrimaryButton innerText={"Show on Map"} onClick={handleClick} />
         </div>
       </div>
