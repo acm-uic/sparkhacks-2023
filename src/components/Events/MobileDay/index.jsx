@@ -22,7 +22,7 @@ export default function MobileDay({ index, text, events }) {
         </svg>
       </div>
       {/* In order to make animations work, you can't use max-h-fit, it breaks them, awr max-h-[LARGE value].*/}
-      <div className="group group-focus:max-h-[500vh] max-h-0 px-4 overflow-hidden transition-all transform-gpu	ease-in-out duration-700">
+      <div className="group group-focus:max-h-[2000vh] max-h-0 px-4 overflow-hidden transition-all transform-gpu	ease-in-out duration-700">
         <div className="p-2 text-justify">{events}</div>
       </div>
     </div>
