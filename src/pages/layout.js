@@ -48,11 +48,11 @@ export default function Home(){
                       <div className='text-center'>
                           <h4>Social</h4>
                           <ul>
-                              <li><Link to="/">Instagram</Link></li>
-                              <li><Link to="/about">Facebook</Link></li>
-                              <li><Link to="/about">Youtube</Link></li>
-                              <li><Link to="/about">Twitter</Link></li>
-                              <li><Link to="/about">LinkedIn</Link></li>
+                              <li><a href='https://www.instagram.com/sparkhacksuic/' target="_blank" rel="noreferrer">Instagram</a></li>
+                              <li><a href='https://www.facebook.com/profile.php?id=100090984219952' target="_blank" rel="noreferrer">Facebook</a></li>
+                              <li><a href='https://www.youtube.com/channel/UC9CxYBwFup_SCKp38-CQx8Q' target="_blank" rel="noreferrer">Youtube</a></li>
+                              <li><a href='https://twitter.com/SparkhacksAtUIC' target="_blank" rel="noreferrer">Twitter</a></li>
+                              <li><a href='https://www.linkedin.com/in/sparkhacks-uic-343612269/' target="_blank" rel="noreferrer">LinkedIn</a></li>
                           </ul>
                       </div>
                   </div>
