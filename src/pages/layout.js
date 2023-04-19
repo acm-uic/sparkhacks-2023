@@ -38,21 +38,21 @@ export default function Home(){
                       <div className='text-center'>
                           <h4>Pages</h4>
                           <ul>
-                              <li><Link to="/">Home</Link></li>
-                              <li><Link to="/contact">RSVP</Link></li>
-                              <li><Link to="/social">Social</Link></li>
-                              <li><Link to="/eventdetails">Calendar</Link></li>
-                              <li><Link to="/about">About</Link></li>
+                              <li className={"hover:text-primary-light"}><Link to="/">Home</Link></li>
+                              <li className={"hover:text-primary-light"}><Link to="/contact">RSVP</Link></li>
+                              <li className={"hover:text-primary-light"}><Link to="/social">Social</Link></li>
+                              <li className={"hover:text-primary-light"}><Link to="/eventdetails">Calendar</Link></li>
+                              <li className={"hover:text-primary-light"}><Link to="/about">About</Link></li>
                           </ul>
                       </div>
                       <div className='text-center'>
                           <h4>Social</h4>
                           <ul>
-                              <li><Link to="/">Instagram</Link></li>
-                              <li><Link to="/about">Facebook</Link></li>
-                              <li><Link to="/about">Youtube</Link></li>
-                              <li><Link to="/about">Twitter</Link></li>
-                              <li><Link to="/about">LinkedIn</Link></li>
+                              <li className={"hover:text-primary-light"}><Link to="/">Instagram</Link></li>
+                              <li className={"hover:text-primary-light"}><Link to="/about">Facebook</Link></li>
+                              <li className={"hover:text-primary-light"}><Link to="/about">Youtube</Link></li>
+                              <li className={"hover:text-primary-light"}><Link to="/about">Twitter</Link></li>
+                              <li className={"hover:text-primary-light"}><Link to="/about">LinkedIn</Link></li>
                           </ul>
                       </div>
                   </div>
