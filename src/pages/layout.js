@@ -2,6 +2,7 @@ import './layout.css'
 import { Link, Outlet } from 'react-router-dom'
 import sparkLogo from "../assets/images/sparkHacksLogo.png"
 import { useState } from 'react'
+import SocialLinks from "../api/SocialMediaLinks"
 
 function getCurrentPage() {
   let path = window.location.pathname
@@ -47,12 +48,12 @@ export default function Home(){
                       </div>
                       <div className='text-center'>
                           <h4>Social</h4>
-                          <ul>
-                              <li><Link to="/">Instagram</Link></li>
-                              <li><Link to="/about">Facebook</Link></li>
-                              <li><Link to="/about">Youtube</Link></li>
-                              <li><Link to="/about">Twitter</Link></li>
-                              <li><Link to="/about">LinkedIn</Link></li>
+                          <ul> 
+                              <li><a href={SocialLinks.Instagram}>Instagram</a></li>
+                              <li><a href={SocialLinks.Facebook}>Facebook</a></li>
+                              <li><a href={SocialLinks.YouTube}>YouTube</a></li>
+                              <li><a href={SocialLinks.Twitter}>Twitter</a></li>
+                              <li><a href={SocialLinks.LinkedIn}>LinkedIn</a></li>
                           </ul>
                       </div>
                   </div>
