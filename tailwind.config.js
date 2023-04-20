@@ -6,6 +6,7 @@ module.exports = {
       sans: ["Montserrat", "sans-serif"],
     },
     colors: {
+      "disable": "#3D3C50",
       // Defines primary, primary-light, primary-dark
       primary: {
         light: "rgb(var(--color-primary-light) / <alpha-value>)",
