@@ -1,6 +1,7 @@
 import { useState } from "react";
 import PrimaryButton from "../PrimaryButton";
-import { Alert } from "@mui/material";
+// import { Alert } from "@mui/material";
+import "./DesktopNewsletter.css"
 export default function DesktopNewsletter() {
   const[showAlert,handleShowAlert] = useState(false);
   let email = ""
@@ -17,12 +18,11 @@ export default function DesktopNewsletter() {
     <>
     <div >
     {showAlert? <>
-            <Alert
-    severity='info'
-    className="mt-3"
-    onClose={()=>{handleShowAlert(false)}}>
-      Our newsletter sign ups has closed for this event! We hope to see you next year!
-    </Alert>
+            <div className="alert-card"
+    >
+      <p className="alert-info">Our newsletter sign ups has closed for this event! We hope to see you next year!</p>
+      <p className="closeBtn" onClick={()=>{handleShowAlert(false)}}>X</p>
+    </div>
           </> :<></>}
     </div>
     <div className="grid h-screen bg-primary place-items-center">
