@@ -2,10 +2,21 @@ import PrimaryButton from "../PrimaryButton";
 import React from "react";
 
 export default function ContactUs(){
-    const [value, setValue] = React.useState('');
+    const [reason,setReason] = React.useState('');
+    const [body,setBody] = React.useState('');
     const handleChange = (event) => {
-        setValue(event.target.value);
+        setReason(event.target.value);
     };
+
+
+const handleSubmit = (event) => {
+    event.preventDefault();
+    const recipientMail = "info@sparkhacksatuic.com"; 
+    const mailtoLink = `mailto:${recipientMail}?subject=${encodeURIComponent(reason)}&body=${encodeURIComponent(body)}`;
+    window.location.href = mailtoLink;
+  };
+
+
     return (
         <div className={"flex justify-center items-center min-h-[500px] sm:h-screen sm:bg-primary mt-5"}>
             <div className="flex-auto absolute text-center h-fit w-full min-w-max px-2 py-10 sm:w-1/2 sm:drop-shadow-[-90px_-60px_4px_rgba(0,0,0,0.5)] sm:bg-secondary-light sm:rounded-[2.813rem]">
@@ -14,7 +25,7 @@ export default function ContactUs(){
                     <input type="text" placeholder="Name" />
                     <div className={"drop-down"}>
                         <div className={"arrow-down"}/>
-                        <select required value={value} onChange={handleChange}>
+                        <select required value={reason} onChange={handleChange}>
                             <option value="" hidden>Reason</option>
                             <option value={"Sponsorship"}>Interested in sponsoring</option>
                             <option value={"Speaker"}>Interested in being a speaker</option>
@@ -22,8 +33,8 @@ export default function ContactUs(){
                         </select>
                     </div>
 
-                    <textarea type="textarea" rows={5} placeholder="Additional Details" />
-                    <PrimaryButton className={"w-full"} innerText="Send"/>
+                    <textarea type="textarea" value={body} onChange={(e)=>{setBody(e.target.value)}} rows={5} placeholder="Additional Details" />
+                    <PrimaryButton onClick={handleSubmit} className={"w-full"} innerText="Send"/>
                 </div>
             </div>
         </div>
