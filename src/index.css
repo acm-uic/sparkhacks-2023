@@ -17,8 +17,20 @@
   html {
     @apply text-white;
   }
+
   
-  
+}
+
+a:hover {
+    color: rgb(var(--color-primary-light));
+}
+
+nav > ul > li >a:hover {
+    color: white;
+}
+
+nav > a:hover {
+    color: white;
 }
 
 body {

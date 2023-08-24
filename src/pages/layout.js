@@ -40,21 +40,23 @@ export default function Home(){
                       <div className='text-center'>
                           <h4>Pages</h4>
                           <ul>
-                              <li><Link to="/">Home</Link></li>
-                              <li><Link to="/contact">RSVP</Link></li>
-                              <li><Link to="/social">Social</Link></li>
-                              <li><Link to="/eventdetails">Calendar</Link></li>
-                              <li><Link to="/about">About</Link></li>
+                              <li className={"hover:text-primary-light"}><Link to="/">Home</Link></li>
+                              <li className={"hover:text-primary-light"}><Link to="/contact">RSVP</Link></li>
+                              <li className={"hover:text-primary-light"}><Link to="/social">Social</Link></li>
+                              <li className={"hover:text-primary-light"}><Link to="/eventdetails">Calendar</Link></li>
+                              <li className={"hover:text-primary-light"}><Link to="/about">About</Link></li>
                           </ul>
                       </div>
                       <div className='text-center'>
                           <h4>Social</h4>
-                          <ul> 
-                              <li><a href={SocialLinks.Instagram}>Instagram</a></li>
-                              <li><a href={SocialLinks.Facebook}>Facebook</a></li>
-                              <li><a href={SocialLinks.YouTube}>YouTube</a></li>
-                              <li><a href={SocialLinks.Twitter}>Twitter</a></li>
-                              <li><a href={SocialLinks.LinkedIn}>LinkedIn</a></li>
+
+                          <ul>
+                              <li className={"hover:text-primary-light"}><a href={SocialLinks.Instagram}>Instagram</a></li>
+                              <li className={"hover:text-primary-light"}><a href={SocialLinks.Facebook}>Facebook</a></li>
+                              <li className={"hover:text-primary-light"}><a href={SocialLinks.YouTube}>YouTube</a></li>
+                              <li className={"hover:text-primary-light"}><a href={SocialLinks.Twitter}>Twitter</a></li>
+                              <li className={"hover:text-primary-light"}><a href={SocialLinks.LinkedIn}>LinkedIn</a></li>
+
                           </ul>
                       </div>
                   </div>
