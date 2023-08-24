@@ -1,7 +1,9 @@
+
 import './layout.css'
 import { Link, Outlet } from 'react-router-dom'
 import sparkLogo from "../assets/images/sparkHacksLogo.png"
 import { useState } from 'react'
+import SocialLinks from "../api/SocialMediaLinks"
 
 function getCurrentPage() {
   let path = window.location.pathname
@@ -47,12 +49,14 @@ export default function Home(){
                       </div>
                       <div className='text-center'>
                           <h4>Social</h4>
+
                           <ul>
-                              <li className={"hover:text-primary-light"}><a href='https://www.instagram.com/sparkhacksuic/' target="_blank" rel="noreferrer">Instagram</a></li>
-                              <li className={"hover:text-primary-light"}><a href='https://www.facebook.com/profile.php?id=100090984219952' target="_blank" rel="noreferrer">Facebook</a></li>
-                              <li className={"hover:text-primary-light"}><a href='https://www.youtube.com/channel/UC9CxYBwFup_SCKp38-CQx8Q' target="_blank" rel="noreferrer">Youtube</a></li>
-                              <li className={"hover:text-primary-light"}><a href='https://twitter.com/SparkhacksAtUIC' target="_blank" rel="noreferrer">Twitter</a></li>
-                              <li className={"hover:text-primary-light"}><a href='https://www.linkedin.com/in/sparkhacks-uic-343612269/' target="_blank" rel="noreferrer">LinkedIn</a></li>
+                              <li className={"hover:text-primary-light"}><a href={SocialLinks.Instagram}>Instagram</a></li>
+                              <li className={"hover:text-primary-light"}><a href={SocialLinks.Facebook}>Facebook</a></li>
+                              <li className={"hover:text-primary-light"}><a href={SocialLinks.YouTube}>YouTube</a></li>
+                              <li className={"hover:text-primary-light"}><a href={SocialLinks.Twitter}>Twitter</a></li>
+                              <li className={"hover:text-primary-light"}><a href={SocialLinks.LinkedIn}>LinkedIn</a></li>
+
                           </ul>
                       </div>
                   </div>
