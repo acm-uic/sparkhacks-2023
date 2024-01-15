@@ -11,8 +11,8 @@ You will need to install the following programs
 - [Node.js](https://nodejs.org/en/) (Use the LTS release)
 
 Once you have installed the above, open your terminal and execute the following commands
-- `git clone git@github.com:acm-uic/flourish-2023.git` (You may want to clone this to your Downloads or other folder)
-- `cd flourish-2023`
+- `git clone git@github.com:acm-uic/sparkhacks-2023.git` (You may want to clone this to your Downloads or other folder)
+- `cd sparkhacks-2023`
 - `npm install`
 
 Once you have done these steps, you are good to go!
@@ -23,7 +23,7 @@ Running the website locally is as simple as `npm start`!
 
 ## Making a contribution
 
-Follow the guide in the [wiki](https://github.com/acm-uic/flourish-2023/wiki/Guide-to-Contribution)
+Follow the guide in the [wiki](https://github.com/acm-uic/sparkhacks-2023/wiki/Guide-to-Contribution)
 
 ### Helper scripts
 
