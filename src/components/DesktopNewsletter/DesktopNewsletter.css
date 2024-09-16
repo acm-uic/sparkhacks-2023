@@ -1,0 +1,22 @@
+.alert-card{
+    background-color: white;
+    padding:10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.alert-info{
+    color:blueviolet;
+    text-align: center;  
+}
+.closeBtn{
+    background-color: black;
+    color: white;
+    padding:5px 10px 5px 10px;
+
+}
+
+.closeBtn:hover{
+    cursor: pointer;
+}
